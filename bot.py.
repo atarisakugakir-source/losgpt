@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 
 TELEGRAM_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 GROQ_KEY = os.environ["GROQ_API_KEY"]
-WEBHOOK_URL = os.environ["WEBHOOK_URL"].rstrip("/")
+WEBHOOK_URL = os.environ["RENDER_EXTERNAL_URL"].rstrip("/")
 WEBHOOK_SECRET = os.environ["WEBHOOK_SECRET"]
 
 BOT_USERNAME = os.environ.get(
